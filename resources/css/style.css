@@ -1,0 +1,139 @@
+html {
+  display: flex;
+  font-family: sans-serif;
+  width: 1400px;
+  justify-content: center;
+  align-content: center;
+}
+
+header {
+  background-color: black;
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+header .logoImg {
+  padding: 0px 20px 0 30px;
+}
+
+header .logoName {
+  display: inline-flex;
+  color: white;
+  padding-left:
+}
+
+.main {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: block;
+}
+
+.content .headlines {
+  margin-top: 200px;
+  margin-left: 100px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 250px;
+  width: 500px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.headlines h4 {
+  font-size: 1em;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.headlines h2 {
+  margin: 50px;
+  font-size: 2em;
+}
+
+.navigation .list {
+  display: flex;
+  background-color: red;
+  color: white;
+  min-height: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list span {
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.products .box {
+  max-height: 400px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 30px 10px;
+  padding: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box img {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.box span {
+  height: 45px;
+  width: auto;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.info {
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+.info .data {
+  display: flex;
+  height: 50px;
+  width: auto;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  height: 150px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  padding-left: 30px;
+}
