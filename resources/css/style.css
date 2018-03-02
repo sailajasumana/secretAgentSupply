@@ -79,7 +79,6 @@ header .logoName {
   width: 300px;
   border: 2px solid black;
   margin: 30px 10px;
-  padding: 20px;
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
@@ -96,7 +95,7 @@ header .logoName {
 
 .box span {
   height: 45px;
-  width: auto;
+  width: 100%;
   background-color: black;
   color: white;
   font-weight: bold;
